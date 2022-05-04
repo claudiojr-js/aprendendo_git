@@ -1,0 +1,20 @@
+O GIT nos ajuda a controlar versoes de arquivos. Funciona como modelo distribuido
+possuindo uma grande vantagem, se o computador central cair as pessoas envolvidas em um projeto
+vao conseguir trabalhar da mesma forma. No GIT a copia de trabalho de todo desenvolvedor
+do codigo tambem é um repositorio que contem o historico completo de todas as alterações.
+
+Conheci os seguintes comandos do git:
+
+git clone: clonar repositorio
+git status: status do repositorio
+git config --list: ver nome de usuario e email
+.gitgnore: ignorar algum arquivo (colocar o nome do arquivo dentro do txt gitignore)
+git pull origin name: usar antes de GIT PUSH para evitar conflitos
+cd nomepasta: entrar em uma pasta
+ll: verificar o que tem dentro da pasta
+nkdir: abrir uma nova pasta
+git commit -m "": descrever o que foi feito
+git log: registros de log
+git add .: adicionar varios arquivos
+git add nome: adicionar somente um arquivo
+git tag -a: colocar uma tag de versao
